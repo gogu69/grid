@@ -1,0 +1,136 @@
+:root {
+    --purple-100: hsl(254, 88%, 90%);
+    --purple-500: hsl(256, 67%, 59%);
+    
+    --yellow-100: hsl(31, 66%, 93%);
+    --yellow-500: hsl(39, 100%, 71%);
+    
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 7%);
+}
+
+.accent-color1 {
+    color: var(--purple-500);
+}
+
+.accent-color2 {
+    color: var(--yellow-500);
+}
+
+html {
+    background-color: rgb(240, 240, 240);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(10, 10%);
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+    height: auto;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    padding: 20px;    
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+    /* font-weight: 800; */
+    /* font-style: normal; */
+}
+
+.top-left {
+    grid-row: span 5;
+    background-color: var(--yellow-100);
+    font-size: 1.5em;
+}
+
+.top-center {
+    grid-row: span 4;
+    grid-column: span 2;
+    background-color: var(--purple-500);
+    color: var(--white);
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.top-center > p:nth-child(3){
+    font-size: 0.3em;
+}
+
+.top-right {
+    grid-row: span 7;
+    background-color: var(--purple-100);
+    font-size: 1.5em;
+}
+
+.middle-left {
+    grid-row: span 5;
+    background-color: var(--yellow-500);
+    font-size: 1.5em;
+}
+
+.middle-center-left {
+    grid-row: span 3;
+    background-color: var(--white);
+    font-size: 1.5em;
+}
+
+.middle-center-right {
+    grid-row: span 3;
+    background-color: var(--yellow-500);
+    font-size: 1.5em;
+    
+}
+
+.middle-center-left img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.bottom-center-left {
+    grid-row: span 3;
+    background-color: var(--white);
+    font-size: 1.5em;
+}
+
+.small-text {
+    font-size: 0.7em;
+}
+
+.bottom-center-right {
+    grid-row: span 3;
+    grid-column: span 2;
+    background-color: var(--purple-500);
+    color: var(--white);
+    font-size: 1.5em;
+}
+
+.bottom-center-right img {
+    height: 50%;
+}
+
+.top-center > img {
+    width: 30%;
+    height: auto;
+}
+
+img {
+    width: 100%
+}
