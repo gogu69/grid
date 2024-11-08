@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 50%));
+    grid-template-rows: 50% 50%;
+    height: 100vh;
+}
+
+.item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background-color: aqua;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.grey {
+    background-color: gray;
+}
+
+img {
+    /* max-width: 80%; */
+    min-width: 40%;
+    padding: 20px;
+    object-fit: cover;
+}
