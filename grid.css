@@ -181,7 +181,7 @@ img {
         order: 1;
         background-color: var(--purple-500);
         color: var(--white);
-        font-size: 3rem;
+        font-size: 9vmin;
         font-weight: 500;
         text-align: center;
         line-height: 3rem;
@@ -191,12 +191,13 @@ img {
 
     .top-center img {
         width: 60%;
+        min-width: 200px;
     }
 
     .middle-center-left {
         order: 2;
         background-color: var(--white);
-        font-size: 1.5rem;
+        font-size: 6vmin;
         font-weight: 600;
         padding: 20px;
         line-height: 1.5rem;
@@ -205,6 +206,7 @@ img {
 
     .middle-center-left img {
         width: 100%;
+        min-width: 200px;
     }
 
     .middle-center-right {
@@ -213,7 +215,7 @@ img {
         flex-direction: column;
         justify-content: end;
         background-color: var(--yellow-500);
-        font-size: 1.5rem;
+        font-size: 6vmin;
         font-weight: 600;
         padding: 0px 20px;
         line-height: 1.5rem;
@@ -222,12 +224,13 @@ img {
 
     .middle-center-right img {
         width: 80%;
+        min-width: 200px;
     }
 
     .top-right {
         order: 4;
         background-color: var(--purple-100);
-        font-size: 1.5rem;
+        font-size: 6vmin;
         font-weight: 600;
         padding: 0px 20px;
         line-height: 1.5rem;
@@ -237,6 +240,7 @@ img {
 
     .top-right img {
         width: 100%;
+        min-width: 200px;
     }
 
     .bottom-center-right {
@@ -248,7 +252,7 @@ img {
         background-color: var(--purple-500);
         color: var(--white);
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 6vmin;
         font-weight: 600;
         padding: 20px;
         width: 90%;
@@ -256,6 +260,7 @@ img {
 
     .bottom-center-right img {
         width: 60%;
+        min-width: 200px;
     }
 
     .bottom-center-left {
@@ -264,7 +269,7 @@ img {
         flex-direction: column;
         justify-content: center;
         background-color: var(--white);
-        font-size: 4rem;
+        font-size: 9vmin;
         font-weight: 600;
         padding: 20px;
         line-height: 1.5rem;
@@ -273,6 +278,7 @@ img {
 
     .bottom-center-left img {
         width: 60%;
+        min-width: 200px;
     }
 
     .top-left {
@@ -287,6 +293,7 @@ img {
 
     .top-left img {
         width: 60%;
+        min-width: 200px;
     }
 
     .middle-left {
@@ -301,10 +308,11 @@ img {
 
     .middle-left img {
         width: 70%;
+        min-width: 200px;
     }
 
     .small-text {
-        font-size: 1rem;
+        font-size: 4vmin;
         font-weight: 400;
     } 
 

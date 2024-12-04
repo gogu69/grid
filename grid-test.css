@@ -17,10 +17,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .blue {
-    background-color: aqua;
+    background-color: pink;
 }
 
 .yellow {
@@ -31,9 +32,16 @@
     background-color: gray;
 }
 
-img {
-    /* max-width: 80%; */
-    min-width: 40%;
+.item > img {
+    max-width: 400px;
+    /* min-width: 40%; */
     padding: 20px;
-    object-fit: cover;
+    width: 100%;
+
+    /* object-fit: cover; */
+}
+
+p {
+    font-size: 3vmin;
+
 }
