@@ -25,4 +25,51 @@ html, body {
 
 --White: hsl(0, 0%, 100%);
 --Black: hsl(0, 0%, 7%);
+--Grey: hsl(0, 0%, 90%);
+}
+
+
+/* colors -----------------*/
+.purple100 {
+	background-color: var(--Purple100);
+}
+
+.purple500 {
+	background-color: var(--Purple500);
+}
+
+.yellow100 {
+	background-color: var(--Yellow100);
+  }
+
+.yellow500 {
+	background-color: var(--Yellow500);
+  }
+
+.white {
+	background-color: var(--White);
+  }
+
+.black {
+	background-color: var(--Black);
+  }
+
+.grey {
+	background-color: var(--Grey);
+  }
+
+
+/* layout -----------------*/
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+.main > div {
+  flex-basis: 200px;
+}
+
+.card {
+  border-radius: 10px;
+  margin: 10px;
 }
