@@ -26,6 +26,14 @@ html, body {
 --White: hsl(0, 0%, 100%);
 --Black: hsl(0, 0%, 7%);
 --Grey: hsl(0, 0%, 90%);
+
+--text-font: "DM Sans", sans-serif;
+--text-large: 48px;
+--text-medium: 28px;
+--text-small: 15px;
+
+--text-bold: 600;
+--text-regular: 400;
 }
 
 
@@ -58,11 +66,39 @@ html, body {
 	background-color: var(--Grey);
   }
 
+/* text -----------------*/
+
+.text-large {
+	font-size: var(--text-large);
+}
+
+.text-medium {
+	font-size: var(--text-medium);
+}
+
+.text-small {
+	font-size: var(--text-small);
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.regular {
+	font-weight: 400;
+}
+
+.italic {
+	font-style: italic;
+}
 
 /* layout -----------------*/
 .main {
 	display: flex;
 	flex-direction: column;
+	font-family: var(--text-font);
+	line-height: 0.8;
+	
 }
 
 .main > div {
@@ -72,4 +108,36 @@ html, body {
 .card {
   border-radius: 10px;
   margin: 10px;
+  padding: 25px;
+}
+
+.social, .grw {
+	color: var(--White);
+	
+}
+
+.ylw {
+	color: var(--Yellow500);
+}
+
+.prpl {
+	color: var(--Purple500);
+}
+
+.social, .grw, .sch {
+	text-align: center;
+}
+
+img {
+	width: 60%;
+	margin: 10px;
+}
+
+.grw, .wrt, .sch, .mng img {
+	width: 80%;
+	margin: 10px;
+}
+
+p {
+	padding: 10px 0;
 }
