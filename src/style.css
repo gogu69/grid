@@ -98,6 +98,7 @@ html, body {
 	flex-direction: column;
 	font-family: var(--text-font);
 	line-height: 0.8;
+	width: 100vw;
 	
 }
 
