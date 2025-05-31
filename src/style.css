@@ -104,15 +104,14 @@ html, body {
 
 .main > div {
   flex-basis: 200px;
-  /* width: 100vw; */
 }
 
 .card {
   border-radius: 10px;
-  /* margin: 10px; */
+  margin: 10px;
   padding: 25px;
   box-sizing: border-box;
-  width: 90%;
+  width: 100%
 }
 
 .social, .grw {
