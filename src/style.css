@@ -131,6 +131,7 @@ html, body {
 img {
 	width: 60%;
 	margin: 10px;
+	border: 5px solid red;
 }
 
 .grw, .wrt, .sch, .mng img {
@@ -143,5 +144,5 @@ p {
 }
 
 .mtn {
-  border: 5px solid red;
+  
 }
