@@ -131,7 +131,6 @@ html, body {
 img {
 	width: 60%;
 	margin: 10px;
-
 }
 
 .grw, .wrt, .sch, .mng img {
@@ -146,5 +145,9 @@ p {
 .mtn img {
   margin-bottom: 0;
   border: 5px solid red;
-  
+}
+
+.mtn {
+  padding-bottom: 0;
+
 }
