@@ -98,8 +98,6 @@ html, body {
 	flex-direction: column;
 	font-family: var(--text-font);
 	line-height: 0.8;
-	width: 100vw;
-	
 }
 
 .main > div {
@@ -110,8 +108,6 @@ html, body {
   border-radius: 10px;
   margin: 10px;
   padding: 25px;
-  box-sizing: border-box;
-  width: 100%
 }
 
 .social, .grw {
