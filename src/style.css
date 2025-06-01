@@ -127,9 +127,9 @@ html, body {
 	text-align: center;
 }
 
-.social > img {
-	width: 40%;
-	margin: 10px;
+ img {
+	width: auto;
+	margin: 20%;
 }
 
 .grw > img, .wrt > img, .sch > img, .mng > img {
