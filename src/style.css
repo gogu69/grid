@@ -26,6 +26,7 @@ html, body {
 --White: hsl(0, 0%, 100%);
 --Black: hsl(0, 0%, 7%);
 --Grey: hsl(0, 0%, 90%);
+--Light-grey: hsl(0, 0%, 96%);
 
 --text-font: "DM Sans", sans-serif;
 --text-large: 48px;
@@ -65,7 +66,10 @@ html, body {
 .grey {
 	background-color: var(--Grey);
   }
-
+ 
+ .light-grey {
+   background-color: var(--Light-grey);
+ }
 /* text -----------------*/
 
 .text-large {
