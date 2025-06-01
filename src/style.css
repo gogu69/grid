@@ -134,7 +134,7 @@ img {
 	margin: 10px;
 }
 
-.grw, .wrt, .sch, .mng img {
+.grw img, .wrt img, .sch img, .mng img {
 	/* width: 80%; */
 	border: solid red;
 	/* margin: 10px; */
