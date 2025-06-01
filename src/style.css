@@ -108,8 +108,6 @@ html, body {
   border-radius: 10px;
   margin: 10px;
   padding: 25px;
-  /* box-sizing: border-box; */
-  /* width: auto; */
 }
 
 .social, .grw {
@@ -136,7 +134,6 @@ img {
 
 .grw > img, .wrt > img, .sch > img, .mng > img {
 	width: 80%;
-	border: solid green;
 	margin: 10px;
 }
 
@@ -150,5 +147,4 @@ p {
 
 .mtn {
   padding-bottom: 0;
-
 }
