@@ -128,8 +128,8 @@ html, body {
 }
 
 .social > img, .mtn > img, .aud > img, .crt > img {
-	width: auto;
-	margin: 20%;
+	width: 50%;
+	margin: 10px;
 }
 
 .grw > img, .wrt > img, .sch > img, .mng > img {
