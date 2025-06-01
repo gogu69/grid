@@ -127,7 +127,7 @@ html, body {
 	text-align: center;
 }
 
- img {
+.social > img, .mtn > img, aud > img, crt > img {
 	width: auto;
 	margin: 20%;
 }
