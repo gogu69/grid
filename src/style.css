@@ -161,10 +161,11 @@ p {
     background-color: green;
   }
   .main > div {
-  flex-basis: 400px;
+  flex-basis: 500px;
 }
   .card {
     margin: 40px;
+    padding: 40px ;
   }
 }
 
