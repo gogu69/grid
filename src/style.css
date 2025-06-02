@@ -161,7 +161,7 @@ p {
     background-color: green;
   }
   .main > div {
-  flex-basis: 500px;
+  flex-basis: 300px;
 }
   .card {
     margin: 40px;
