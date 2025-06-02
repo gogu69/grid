@@ -155,3 +155,57 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
+
+/* laptop -----------------*/
+
+@media (min-width: 70em) {
+	.main {
+		background-color: blueviolet;
+		display:grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(11, 1fr);
+		height: 80vh;
+	}
+
+	.crt {
+		order: 1;
+		grid-area: 1/1/6/2;
+	}
+
+	.social {
+		order: 2;
+		grid-area: 1/2/5/4;
+	}
+
+	.sch {
+		order: 3;
+		grid-area: 1/3/8/5;
+	}
+
+	.wrt {
+		order: 4;
+		grid-area: 6/1/11/2;
+	}
+
+	.mng {
+		order: 5;
+		grid-area: 5/2/8/3;
+	}
+
+	.mtn {
+		order: 6;
+		grid-area: 5/3/8/4;
+	
+	}
+
+	.aud {
+		order: 7;
+		grid-area: 8/2/11/3;
+	}
+
+	.grw {
+		order: 8;
+		grid-area: 8/3/11/5;
+	}
+
+}
