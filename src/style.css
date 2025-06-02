@@ -160,6 +160,9 @@ p {
   .main {
     background-color: green;
   }
+  .card {
+    margin:30px;
+  }
 }
 
 /* laptop -----------------*/
