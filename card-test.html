@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Reset de bază */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+/* Containerul de carduri */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  height: 80vh;                /* ✅ înălțime fixă cerută */
+  border: solid blue;
+}
+
+/* Cardul individual */
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: white;
+  height: 100%;                /* ✅ umple celula gridului */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Imaginea din card */
+/* .card img {
+  width: 100%;
+  height: 100%;
+  max-height: 60%;             /* ✅ imaginea ocupă max 60% din card */
+  /* object-fit: cover;
+  flex-shrink: 0;
+} */ */
+
+/* Conținutul text */
+/* .card-content {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;                /* ✅ ocupă tot spațiul disponibil sub imagine */
+  /* text-align: center;
+} */ */
+
+
+    </style>
+</head>
+<body>
+ <div class="cards-container">
+  <div class="card">
+    <img src="https://via.placeholder.com/400x300" alt="Imagine 1">
+    <div class="card-content">
+      <p>Acesta este un card responsive cu imagine și text.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x300" alt="Imagine 2">
+    <div class="card-content">
+      <p>Cardul se redimensionează automat pe orice ecran.</p>
+    </div>
+  </div>
+
+  <!-- Adaugă mai multe carduri dacă vrei -->
+</div>
+
+</body>
+</html>
