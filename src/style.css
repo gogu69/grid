@@ -114,8 +114,8 @@ html, body {
 
 .card {
   border-radius: 20px;
-  /* margin: 10px; */
-  /* padding: 25px; */
+  margin: 10px;
+  padding: 25px;
 }
 
 
@@ -158,17 +158,17 @@ html, body {
   justify-content: space-between;
 } 
 
-/* tableta -----------------*/
-/* @media (min-width:40em) {
+/*tableta -----------------*/
+ @media (min-width:40em) {
   
   .main > div {
   flex-basis: 300px;
 }
-  .card {
+  /* .card {
     margin: 40px;
     padding: 40px ;
-  }
-} */
+  } */
+}
 
 /* laptop -----------------*/
 
@@ -188,7 +188,9 @@ html, body {
 	grid-template-rows: repeat(auto, 1fr);
 	gap: 1rem;	
 	height: 70vh;
-	width: 60vw;
+	min-height: 700px;
+	max-width: 1320px;
+	min-width: 880px;
 	padding: 1rem;
 	line-height: 1;
 }
@@ -199,6 +201,9 @@ html, body {
 	border-radius: 10px;
 	height: 100%;
 	overflow: hidden; /*ce face asta?*/
+	border-radius: 20px;
+	margin: 0;
+	padding: 0;
 }
 
 img {
