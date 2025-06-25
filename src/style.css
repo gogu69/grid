@@ -98,11 +98,6 @@ html, body {
 	font-style: italic;
 }
 
-/* p {
-	padding: 10px 0;
-} */
-
-
 /* layout -----------------*/
 
 .main {
@@ -159,20 +154,19 @@ html, body {
 } 
 
 /*tableta -----------------*/
- @media (min-width:40em) {
+ @media (max-width: 890px) and (min-width: 500px) {
+
+	.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(auto, 1fr);
+	}
   
-  .main > div {
-  flex-basis: 300px;
-}
-  /* .card {
-    margin: 40px;
-    padding: 40px ;
-  } */
-}
+ }
 
 /* laptop -----------------*/
 
-@media (min-width: 50em) {
+@media (min-width: 890px) {
 
 
 html, body {
@@ -194,10 +188,15 @@ html, body {
 	padding: 1rem;
 	line-height: 1;
 }
+
+  .main > div {
+  flex-basis: 300px;
+  }
+
 .card {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	/* justify-content: space-around; */
 	border-radius: 10px;
 	height: 100%;
 	overflow: hidden; /*ce face asta?*/
@@ -215,7 +214,7 @@ img {
 }
 
 .text-medium {
-	font-size: 2.5vh;
+	font-size: 2.8vh;
 }
 
 .bold {
@@ -229,6 +228,13 @@ p {
 .crt {
 	order: 1;
 	grid-area: 1/1/6/2;
+	align-items: center;
+	justify-content: center;
+}
+
+.crt  img {
+	width: 60%;
+	margin: auto;
 }
 
 .social {
@@ -237,6 +243,11 @@ p {
 	align-items: center;
 }
 
+.social > img {
+	width: 30%;
+}
+
+
 .social .bold, .aud .bold {
 	font-weight: 800;
 }
@@ -244,11 +255,21 @@ p {
 .sch {
 	order: 3;
 	grid-area: 1/4/8/5;
+	text-align: left;
+}
+
+.sch > img {
+margin:auto;
 }
 
 .wrt {
 	order: 4;
 	grid-area: 6/1/11/2;
+	align-items: center;
+}
+
+.wrt > img {
+	width: 70%;
 }
 
 .mng {
@@ -259,6 +280,7 @@ p {
 .mtn {
 	order: 6;
 	grid-area: 5/3/8/4;
+	align-items: center;
 
 }
 
@@ -270,6 +292,14 @@ p {
 .grw {
 	order: 8;
 	grid-area: 8/3/11/5;
+	flex-direction: row;
+	align-items: center;
+	text-align: left;
+}
+
+.grw img {
+	height: 80%;
 }
 
 }
+
